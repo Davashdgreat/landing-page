@@ -23,7 +23,6 @@ const testimonials = [
 export default function Testimonials() {
   return (
     <section className="px-6 py-16 md:px-16">
-      {/* Heading */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -41,13 +40,13 @@ export default function Testimonials() {
           className="relative w-40 h-40 rounded-full border-4 border-[#8300FF] p-1 flex items-center justify-center"
         >
           <div className="w-30 h-30 rounded-full overflow-hidden flex items-center justify-center">
-            <div className="relative w-28 h-28">
+            <div className="">
               <Image
-                src="/testifier1.png" // Change to your actual image path
+                src="/testifier1.png"
                 alt="Profile Image"
-                layout="fill"
-                objectFit="cover"
-                className="rounded-full"
+                width={200}
+                height={200}
+                className="rounded-full object-cover"
               />
             </div>
           </div>

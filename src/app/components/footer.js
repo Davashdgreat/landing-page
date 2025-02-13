@@ -6,7 +6,7 @@ export default function Footer() {
 
       <div className="pb-5">
         <Image 
-        src="/logo.png" // Change to your actual image path
+        src="/logo.png"
         alt="Logo"
         width={200}
         height={80}  

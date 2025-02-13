@@ -41,7 +41,7 @@ export default function FeatureSection() {
               className={`absolute ${item.position} w-20 h-20 rounded-full border-4 ${item.color} overflow-hidden`}
             >
               <Image
-                src="/testifier1.png" // Change to your actual image path
+                src="/testifier1.png"
                 alt="Profile"
                 width={80}
                 height={80}
@@ -57,9 +57,7 @@ export default function FeatureSection() {
       </button>
     </div>
 
-      {/* Bottom Section - Image Left, Text Right */}
       <div className="flex flex-col items-center gap-8 md:flex-row">
-        {/* Left - Small Image */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
@@ -75,7 +73,6 @@ export default function FeatureSection() {
           />
         </motion.div>
 
-        {/* Right - Text + Button */}
         <motion.div
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}

@@ -27,7 +27,6 @@ export default function FAQs() {
 
   return (
     <section className="px-6 py-16 bg-white md:px-16">
-      {/* Heading */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -38,7 +37,6 @@ export default function FAQs() {
         <p className="mt-2 text-gray-600">Find answers to common questions</p>
       </motion.div>
 
-      {/* FAQ List */}
       <div className="mt-8 max-w-2xl mx-auto">
         {faqs.map((faq, index) => (
           <motion.div
